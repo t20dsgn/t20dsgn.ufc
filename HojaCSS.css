@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(SquadaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'texto';
+    src: url(BeVietnamPro-Regular.ttf);
+}
+.nav1{
+    background-color: black;
+    color: white;
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    z-index: 1;
+}
+ul{
+    padding: 0;
+}
+.ul1{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.li1ufc{
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    display: inline-block;
+    font-size: 15pt;
+    font-family: 'titulos';
+}
+.li1{
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15pt;
+    font-family: 'titulos';
+}
+.li1:hover{
+    color: #ED1C24;
+}
+.li1:active{
+    text-decoration: underline;
+}
+.imgmenu{
+    height: 20px;
+}
+.nav2{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    width: 100%;
+}
+.li2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 80%;
+}
+.footer1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 80%;
+    margin-top: 30px;
+    text-align: right;
+}
+.footer2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 80%;
+    text-align: right;
+}
+.footer3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 80%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.footer4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 80%;
+    text-align: right;
+    margin-top: 30px;
+}
+.footer5{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 80%;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.logofooter1{
+    height: 20px;
+}
+.logofooter2{
+    height: 60px;
+    margin-top: 10px;
+}
+.pfooter{
+    margin: 0px;
+}
+.pfooter:hover{
+    color: grey;
+}
+.pfooter:active{
+    color: #ED1C24;
+}
+u{
+    text-decoration-color: #ED1C24;
+}
+h1{
+    font-family: 'titulos';
+}
+h3{
+    font-family: 'titulos';
+}
+p{
+    font-family: 'texto';
+}
+a {
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+.tituloseccion{
+    color: #ED1C24;
+    margin-top: 100px;
+    text-align: center;
+}
+.home{
+    color: #ED1C24;
+    text-align: center;
+}
+.nombres{
+    gap: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: baseline;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.imgs{
+    width: 100%;
+}
+.imgsg{
+    width: 100%;
+}
+.imgs:hover{
+    opacity: 50%;
+}
+.footerdiv1{
+    margin-left: 20%;
+}
+.footerdiv2{
+    margin-right: 20%;
+}
+.noticiaspadre{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.not1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.imgn1{
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+.imgn2{
+    width: 30%;
+    float: right;
+    margin-left: 20px;
+}
+.banner{
+    position: static;
+        right: 0px;
+        top: 55px;
+        right: 0px;
+    margin-bottom: 50px;
+}
+.b1{
+    width: 100%;
+    margin-top: 55px;
+}
+.txt{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.home3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 55px;
+}
+.titsecc{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: large;
+}
+.secc{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.seccimg{
+    background-color: #ED1C24;
+    width: 32%;
+}
+.secctxt{
+    color: white;
+    margin: 5%;
+}
